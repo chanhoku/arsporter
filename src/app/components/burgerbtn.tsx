@@ -6,7 +6,6 @@ export default function Burgerbtn() {
             width: '60px',
             height: '60px',
             position: 'relative',
-            border: '1px solid #000',
             cursor: 'pointer'
         })}>
             <span
