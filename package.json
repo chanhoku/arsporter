@@ -22,5 +22,8 @@
   },
   "devDependencies": {
     "@pandacss/dev": "^0.15.0"
+  },
+  "volta": {
+    "node": "20.6.1"
   }
 }
