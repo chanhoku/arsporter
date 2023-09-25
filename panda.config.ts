@@ -12,7 +12,13 @@ export default defineConfig({
 
   // Useful for theme customization
   theme: {
-    extend: {},
+    tokens: {
+      colors: {
+        primary: { value: "#0b6fda" },
+        gray: { value: "#a9b0be" },
+        textgray: { value: "#7a8292" },
+      },
+    },
   },
 
   // The output directory for your css system

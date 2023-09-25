@@ -35,11 +35,12 @@ export default function Nav() {
           transition: "transform 0.8s",
           transform: navIsOpen ? "translateX(-100%)" : "translateX(0%)",
           "& li": {
-            p: "5px",
+            p: "8px",
+            fontSize: "14px",
           },
           md: {
             display: "flex",
-            gap: "20px",
+            gap: "24px",
             position: "relative",
             inset: "0 0 0 0",
             bg: "none",

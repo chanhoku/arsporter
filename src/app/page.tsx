@@ -1,6 +1,21 @@
-import Header from "src/app/components/header";
-import Footer from "src/app/components/footer";
+import Hero from "src/app/components/hero";
+import Aboutus from "src/app/components/aboutus";
+import { css } from "styled-system/css";
 
 export default function Home() {
-  return <></>;
+  return (
+    <>
+      <div
+        className={css({
+          display: "block",
+          h: "56px",
+          md: {
+            h: "70px",
+          },
+        })}
+      ></div>
+      <Hero />
+      <Aboutus />
+    </>
+  );
 }
