@@ -2,7 +2,7 @@ import { css } from "styled-system/css";
 import { flex } from "styled-system/patterns";
 import { BsPeopleFill } from "react-icons/bs";
 import { ReactNode } from "react";
-export default function AboutContent({
+export default function ConpanyContent({
   aboutTitle,
   aboutDetail,
   component,

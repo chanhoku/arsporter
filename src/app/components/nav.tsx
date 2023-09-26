@@ -49,11 +49,9 @@ export default function Nav() {
           },
         })}
       >
-        <li>会社概要</li>
+        <li>アルスポーターについて</li>
         <li>事業内容</li>
-        <li>お知らせ</li>
-        <li>採用情報</li>
-        <li>お問い合わせ</li>
+        <li>会社概要</li>
       </ul>
     </nav>
   );

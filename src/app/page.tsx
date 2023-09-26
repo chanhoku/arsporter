@@ -1,7 +1,8 @@
 import Hero from "src/app/components/hero";
-import Aboutus from "src/app/components/aboutus";
+import Aboutus from "@/app/components/aboutus";
 import { css } from "styled-system/css";
-
+import CompanyProfile from "@/app/components/companyprofile";
+import Service from "src/app/components/service";
 export default function Home() {
   return (
     <>
@@ -16,6 +17,8 @@ export default function Home() {
       ></div>
       <Hero />
       <Aboutus />
+      <Service />
+      <CompanyProfile />
     </>
   );
 }
