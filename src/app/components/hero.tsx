@@ -6,6 +6,10 @@ export default function Hero() {
     <div
       className={css({
         position: "relative",
+        backgroundImage:
+          "linear-gradient(90deg, rgba(65, 164, 253, 1), rgba(14, 244, 255, 1))",
+        w: "100%",
+        h: "70vh",
       })}
     >
       <h1
@@ -26,7 +30,7 @@ export default function Hero() {
         <br />
         荷物の味方。
       </h1>
-      <Image
+      {/* <Image
         src="/home/img_hero.jpg"
         alt="走るトラック"
         width={1980}
@@ -36,7 +40,7 @@ export default function Hero() {
           width: "100%",
           height: "auto",
         }}
-      />
+      />*/}
     </div>
   );
 }

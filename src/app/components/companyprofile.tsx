@@ -25,7 +25,7 @@ const aboutInfo = [
 ];
 export default function CompanyProfile() {
   return (
-    <Wrapper>
+    <Wrapper bg={false}>
       <Title subtitle="会社情報" title="Company Profile" />
       <div
         className={css({

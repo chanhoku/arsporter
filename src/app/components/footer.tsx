@@ -1,6 +1,8 @@
 import { flex } from "styled-system/patterns";
 import { css } from "styled-system/css";
 import Logo from "src/app/components/logo";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -11,15 +13,15 @@ export default function Footer() {
         flexDirection: "column",
         bg: "gray",
         color: "white",
-        p: "32px",
+        p: "24px 32px",
         w: "100%",
+        gap: "16px",
       })}
     >
       <Logo />
       <div
         className={css({
           fontSize: "12px",
-          p: "16px 32px",
           textAlign: "center",
         })}
       >
@@ -29,6 +31,21 @@ export default function Footer() {
         <br />
         tel:011-769-8763 fax:011-769-8764
       </div>
+      <ul
+        className={flex({
+          fontSize: "24px",
+          "& li": {
+            p: "0 4px",
+          },
+        })}
+      >
+        <li>
+          <FaSquareXTwitter />
+        </li>
+        <li>
+          <AiFillInstagram />
+        </li>
+      </ul>
       <div
         className={flex({
           w: "100%",

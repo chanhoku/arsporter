@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <Wrapper>
+    <Wrapper bg={false}>
       <Title subtitle="アルスポーターについて" title="About Us" />
       <div
         className={flex({
